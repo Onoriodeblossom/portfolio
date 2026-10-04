@@ -38,6 +38,8 @@ const Title = styled.h1`
   font-size: clamp(2.5rem, 7vw, 4.9rem);
   letter-spacing: -0.035em;
   margin-top: 22px;
+
+  color: ${(p) => (p.$solid ? p.theme.colors.ink : p.theme.fg)};
   ${media.mobile} {
     font-size: clamp(2.3rem, 11vw, 3rem);
   }
@@ -148,6 +150,7 @@ export default function Hero() {
           <i /> Open to work
         </Status>
         <Title>
+          
           I <Mark $color="sun" $tilt={-1.5}>build</Mark> apps people{" "}
           <Mark $color="mint" $tilt={1.2}>tap</Mark>, click and{" "}
           <Mark $color="pink" $tilt={-1}>keep</Mark>.

@@ -35,7 +35,7 @@ export const darkTheme = {
   fg: "#F2F2FA",
   muted: "#A5A5C4",
   line: "#2B2C4A",
-  logoTile: "#F2F2FA",
+  logoTile: "#FFFFF",
   shadow: "0 10px 30px -12px rgba(0,0,0,.6)",
 };
 
