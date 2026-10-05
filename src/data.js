@@ -2,10 +2,10 @@
 
 export const profile = {
   name: "Your Name",
-  email: "you@example.com",
+  email: "onoriodeblossom1122334455.com",
   intro:
     "Hi, I'm Blossom Onoriode, a front-end and mobile developer. I turn ideas into fast React websites and smooth React Native apps for Android and iOS.",
-  github: "https://github.com/",
+  github: "https://github.com/Onoriodeblossom",
   linkedin: "https://www.linkedin.com/",
   x: "https://x.com/",
 };
